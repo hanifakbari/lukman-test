@@ -60,7 +60,7 @@ export function AvailabilityChart({
         <ChartLegend />
       </div>
 
-      <div className="flex-1 min-h-0" style={{ height: "calc(100% - 60px)" }}>
+      <div className="flex-1 min-h-0">
         {hasData ? (
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart
